@@ -25,9 +25,9 @@ public class Main {
 
         System.out.println("Obtener persona por Seguridad Social: " + seguridadSocial.obtenerPersonaPorNumSS(maria.getNumSS()));
 
-        //System.out.println("Obtener persona por rango salarial: " + seguridadSocial.obtenerPersonasRangoSalarial(23000.00, 45000.00));
+        System.out.println("Obtener persona por rango salarial: " + seguridadSocial.obtenerPersonaRangoSalarial(23000.00, 45000.00));
 
-        //System.out.println("Obtener personas mayores de: " + seguridadSocial.obtenerPersonasMayoresQue(25));
+        System.out.println("Obtener personas mayores de: " + seguridadSocial.obtenerPersonasMayoresQue(25));
 
 
 
